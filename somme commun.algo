@@ -1,0 +1,29 @@
+ALGORITHM somme
+VAR
+   tab1,tab2 : ARRAY_OF INTEGER;
+   i,j,sum : INTEGER;
+BEGIN
+    FOR i FROM 0 TO tab1_length i++  DO
+         FOR j FROM 0 TO tab1_length i++  DO
+IF (tab1[i]=tab2[j]) THEN
+    sum = sum+tab1[i]+tab2[j]
+END_IF
+    END_FOR
+     END_FOR
+END
+
+
+
+ALGORITHME SOMME
+Var
+i, j, sum: Integer;
+tab1, tab2 :Array-of Integer;
+BEGIN
+for i from 0 to tab1_length
+for j from 0 to tab2_length
+if T[i]=T[j]
+sum:=sum-(T[i]+T[j]);
+End_if
+End_for
+End_for
+END
